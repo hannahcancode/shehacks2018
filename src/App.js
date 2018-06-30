@@ -1,21 +1,17 @@
 import React, { Component } from "react";
-import Webcam from "react-webcam";
-
-import logo from "./logo.svg";
+import { Route } from "react-router-dom";
 import "./App.css";
+import { Login } from "./Login";
+import { Photo } from "./Photo";
+import { GetReady } from "./GetReady";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <Webcam />
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Route path="/photo" component={Photo} />
+        <Route path="/get-ready" component={GetReady} />
+        <Route path="/login" component={Login} />
       </div>
     );
   }
