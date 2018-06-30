@@ -1,0 +1,14 @@
+.getReady {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  margin-left: 32px;
+  margin-right: 32px;
+}

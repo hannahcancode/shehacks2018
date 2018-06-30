@@ -1,0 +1,27 @@
+video {
+  object-fit: cover;
+}
+
+.video {
+  -webkit-animation: hue 3s infinite;
+}
+
+.background {
+  /* background-color: #85e3de; */
+  background-color: #000000;
+  background-image: url("../assets/youlookfantastic.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+@-webkit-keyframes hue {
+  0%,
+  100% {
+    -webkit-filter: hue-rotate(180deg);
+  }
+  50% {
+    -webkit-filter: hue-rotate(0deg);
+  }
+}
