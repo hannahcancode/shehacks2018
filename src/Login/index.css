@@ -7,6 +7,25 @@
   flex-direction: column;
 }
 
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  width: 300px;
+  padding-bottom: 32px;
+}
+
 .form {
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 32px;
+}
+
+.formField {
+  padding: 5px;
+  background-color: #ffffff;
+}
+
+input {
+  padding: 2px;
 }
